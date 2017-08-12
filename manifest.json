@@ -1,0 +1,21 @@
+{
+  // Required
+  "manifest_version": 2,
+  "name": "BITS LAN Login",
+  "version": "1.0",
+
+  "description": "Login automatically on BITS LAN (WiFi not supported yet)",
+  //"icons": {...},
+
+  // Pick one (or none)
+  "background": {
+    "scripts": ["jquery.js", "background.js"]
+  },
+  "browser_action": {
+    "default_title": "Enter Login Credentials",      // optional; shown in tooltip
+    "default_popup": "popup.html"    
+  },
+  "permissions": [
+    "storage"
+  ]
+}
